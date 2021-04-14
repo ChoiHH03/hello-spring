@@ -8,7 +8,7 @@ import org.springframework.stereotype.Controller;
 public class MemberController {
     private final MemberService memberService;
 
-    @Autowired /*** 스프링이 연관된 객체를 스프링 컨테이너에서 찾아서 넣어줌, 스프링 빈 등록 ***/
+    //@Autowired /*** 스프링이 연관된 객체를 스프링 컨테이너에서 찾아서 넣어줌, 스프링 빈 등록 ***/
     public MemberController(MemberService memberService) {
         this.memberService = memberService;
     }
